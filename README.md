@@ -1,6 +1,8 @@
 <h1 align="center" > Hi, I am Agesa 👋</h1>
 
-![hello world](https://github.com/hayat-tamboli/hayat-tamboli/raw/master/hello-world.png)
+<p align="center">
+<img src="header.svg" />
+</p>
 
 <hr/>
 
