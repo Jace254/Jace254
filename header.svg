@@ -9,7 +9,7 @@
                     background: linear-gradient(45deg, #57003f 0%, #f57453 100%);
                     font-family: Ubuntu;
                     font-weight: bold;
-                    border-radius: 20px;
+                    border-radius: 20px 60px 30px;
                     margin: 0;
                     display: flex;
                     justify-content: center;
@@ -18,13 +18,13 @@
 
                 }
 
-                #terminal {
-                    width: 700px;
+                #ide {
+                    width: 400px;
                     height: 300px;
                     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
                 }
 
-                #terminal__bar {
+                #ide__bar {
                     display: flex;
                     width: 100%;
                     height: 40px;
@@ -33,7 +33,7 @@
                     box-sizing: border-box;
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
-                    background: linear-gradient(#504b45 0%, #3c3b37 100%);
+                    background: #3c3b37;
                 }
 
                 #bar__buttons {
@@ -53,7 +53,6 @@
                     box-sizing: border-box;
                     border: none;
                     border-radius: 100%;
-                    background: linear-gradient(#7d7871 0%, #595953 100%);
                     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
                     box-shadow: 0px 0px 1px 0px #41403A, 0px 1px 1px 0px #474642;
                 }
@@ -67,49 +66,77 @@
                 }
 
                 #bar__button--exit {
-                    background: linear-gradient(#f37458 0%, #de4c12 100%);
+                    background: #FF5F57FF;
+                    background-clip: padding-box;
+                }
+
+                #bar__button--minimize {
+                    background: #FEBC2EFF;
+                    background-clip: padding-box;
+                }
+
+                #bar__button--focus {
+                    background: #28C840FF;
                     background-clip: padding-box;
                 }
 
                 #bar__user {
+                    background: #272822FF;
+                    height: 70%;
+                    border-radius: 7px 7px 0px 0px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                     color: #d5d0ce;
-                    margin-left: 6px;
+                    margin-left: 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 400;
                     font-size: 15px;
                     line-height: 15px;
                 }
 
-                #terminal__body {
-                    background: rgba(56, 4, 40, 0.9);
-                    font-family: 'Ubuntu Mono';
+                #bar__user a {
+                    font-weight: 100;
+                    font-size: 10px;
+                    margin-left: 10px;
+                }
+
+                #ide__body {
+                    background: #272822FF;
+                    font-family: 'Cascadia Mono', monospace;
+                    font-weight: 400;
                     height: calc(100% - 30px);
                     padding-top: 2px;
                     padding-left: 2px;
                     margin-top: -1px;
                 }
 
-                #terminal__prompt {
+                #ide__prompt {
                     display: flex;
                 }
 
-                #terminal__prompt--user {
-                    color: #7eda28;
+                .code {
+                    color: #DCBDFBFF;
+                    margin: 20px;
                 }
 
-                #terminal__prompt--location {
-                    color: #4878c0;
+                #code-snippet a {
+                    color: #F47067FF;
                 }
 
-                #terminal__prompt--bling {
-                    color: #dddddd;
+                #code-snippet a#et {
+                    color: #96D0FFFF;
                 }
 
-                #terminal__prompt--cursor {
-                    display: block;
-                    height: 17px;
-                    width: 8px;
-                    margin-left: 9px;
-                    animation: blink 1200ms linear infinite;
+                #code-snippet a#fn {
+                    color: #69B1F8FF;
                 }
+
+                #code-snippet p {
+                    margin-left: 20px;
+                }
+
+
 
                 @keyframes blink {
                     0% {
@@ -134,7 +161,7 @@
                 }
 
                 @media (max-width: 600px) {
-                    #terminal {
+                    #ide {
                         max-height: 90%;
                         width: 90%;
                     }
@@ -142,13 +169,12 @@
 
 
                 .typing-demo {
-                    width: 8ch;
+                    width: 28ch;
+                    height: 4ch;
                     animation: typing 2s steps(15), blink .3s step-end infinite alternate;
                     white-space: nowrap;
                     overflow: hidden;
-                    margin-left: 0.5em;
-                    border-right: 5px solid;
-                    font-family: 'Ubuntu Mono';
+                    border-right: 3px solid;
                     color: white;
                 }
 
@@ -166,26 +192,35 @@
             </style>
 
             <main id="container">
-                <div id="terminal">
-                    <!-- Terminal Bar -->
-                    <section id="terminal__bar">
+                <div id="ide">
+                    <!-- ide Bar -->
+                    <section id="ide__bar">
                         <div id="bar__buttons">
-                            <button class="bar__button" id="bar__button--exit">&#10005;</button>
-                            <button class="bar__button">&#9472;</button>
-                            <button class="bar__button">&#9723;</button>
+                            <button class="bar__button" id="bar__button--exit"></button>
+                            <button class="bar__button" id="bar__button--minimize"></button>
+                            <button class="bar__button" id="bar__button--focus"></button>
                         </div>
-                        <p id="bar__user">joash@github: ~</p>
+                        <p id="bar__user">🇯🇸 index.js <a>&#10005;</a></p>
                     </section>
-                    <!-- Terminal Body -->
-                    <section id="terminal__body">
-                        <div id="terminal__prompt">
-                            <span id="terminal__prompt--user">joash@github: </span>
-                            <span id="terminal__prompt--location">~</span>
-                            <span id="terminal__prompt--bling">$</span>
-                            <div class="typing-demo">
-                                whoami
+                    <!-- ide Body -->
+                    <section id="ide__body">
+                        <div id="ide__prompt">
+                            <div class="code">
+                                <div id="code-snippet">
+                                    <a>import</a> { getInfo } <a>from</a> <a id="et">'@JoashInfo';<br /></a>
+                                    <br />
+                                    <a>async function</a> Me() {<br />
+                                    <p><a>const</a> me = <a>await</a> getInfo();<br /></p>
+                                    <div class="typing-demo">
+                                        <p><a>alert</a>(<a id="fn">JSON.stringify</a>(me));<br /></p>
+                                    </div>
+                                    }
+                                </div>
                             </div>
-                            <span id="terminal__prompt--cursor"></span>
+
+                            <!-- <div class="typing-demo">
+                                whoami
+                            </div> -->
                         </div>
                     </section>
                 </div>
