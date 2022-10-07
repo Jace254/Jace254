@@ -1,7 +1,7 @@
 <h1 align="center" > Hi, I am Agesa 👋</h1>
 
 <p align="center">
-<img src="" />
+<img src="header.svg" />
 </p>
 
 <hr/>
