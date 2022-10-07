@@ -12,7 +12,7 @@ I am a software engineering undergrad from Nairobi, Kenya. Currently I am studyi
 <br/>
  <td>
 <tr><img height="180em" src="https://github-readme-stats.vercel.app/api?username=Jace254&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/></tr>
-<tr><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jace254&layout=compact&langs_count=7&theme=github_dark"/></tr>
+<tr><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=&layout=compact&langs_count=7&theme=github_dark"/></tr>
  <tr><img src="https://github-readme-streak-stats.herokuapp.com/?user=Jace254&show_icons=true&locale=en&layout=compact&theme=tokyonight"/></tr>
 <td>
 </div>
