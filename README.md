@@ -9,8 +9,8 @@
 <div align="center">
 
 
-[![Hayat's github stats](https://github-readme-stats.vercel.app/api?username=Jace254&show_icons=true&title_color=2257EA&icon_color=2257EA&bg_color=f7f7f7)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jace254&title_color=2257EA&bg_color=f7f7f7&hide=html,css)](https://github.com/anuraghazra/github-readme-stats)
+[![Hayat's github stats](https://github-readme-stats.vercel.app/api?username=Jace254&show_icons=true&title_color=2257EA&icon_color=2257EA&bg_color=f7f7f7)](https://github.com/Jace254/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jace254&title_color=2257EA&bg_color=f7f7f7&hide=html,css)](https://github.com/Jace254/github-readme-stats)
 
 </div>
 
@@ -24,6 +24,6 @@ I am a software engineering undergrad from Nairobi, Kenya. Currently I am studyi
 
 ### 👀 visitor count
 
-<img src="https://profile-counter.glitch.me/Jace254i/count.svg" alt="Hello world" />
+<img src="https://profile-counter.glitch.me/Jace254/count.svg" alt="Hello world" />
 
 <hr />
