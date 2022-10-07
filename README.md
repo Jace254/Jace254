@@ -6,10 +6,9 @@
 
 <hr/>
 
-<div align="center">
-<p>
 I am a software engineering undergrad from Nairobi, Kenya. Currently I am studying in Kirinyaga Uni. I am very passionate about __blockchain dev__ and __fullstack web devopment__
-</p>
+
+<div align="center">
 <br/>
  <td>
 <tr><img height="180em" src="https://github-readme-stats.vercel.app/api?username=Jace254&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/></tr>
@@ -25,3 +24,4 @@ I am a software engineering undergrad from Nairobi, Kenya. Currently I am studyi
 [![Connect on LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social)](https://www.linkedin.com/in/joash-agesa-896845243/)
 [![Follow on Twitter](https://img.shields.io/badge/--twitter?label=Twitter&logo=Twitter&style=social)](https://twitter.com/JoashMacenton)
 
+<hr/>
