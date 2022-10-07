@@ -5,13 +5,11 @@
                 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
                 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
-                :root {
+                #container {
                     background: linear-gradient(45deg, #57003f 0%, #f57453 100%);
                     font-family: Ubuntu;
                     font-weight: bold;
-                }
-
-                #container {
+                    border-radius: 20px;
                     margin: 0;
                     display: flex;
                     justify-content: center;
