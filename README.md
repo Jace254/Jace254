@@ -6,6 +6,7 @@
 
 <hr/>
 
+
 I am a software engineering undergrad from Nairobi, Kenya. Currently I am studying in Kirinyaga Uni. I am very passionate about __blockchain dev__ and __fullstack web devepment__
 
 <div align="center">
