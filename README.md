@@ -7,7 +7,7 @@
 <hr/>
 
 
-I am a software engineering undergrad from Nairobi, Kenya. Currently I am studying in Kirinyaga Uni. I am very passionate about __blockchain dev__ and __fullstack web development__
+I am a software engineering undergrad from Nairobi, Kenya. Currently I am studying in Kirinyaga Uni. I am currently passionate about __blockchain dev__ and  I dabble in __fullstack web development__.  I am not a coder, I just love solving problems with code.
 
 <div align="center">
 <br/>
