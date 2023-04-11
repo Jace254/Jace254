@@ -20,9 +20,8 @@ I am a software engineering undergrad from Nairobi, Kenya. Currently I am studyi
 
 
 
-## 🔗 Connect with me on :
+## 🔗 Contact me on:
 
-[![Connect on LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social)](https://www.linkedin.com/in/joash-agesa-896845243/)
-[![Follow on Twitter](https://img.shields.io/badge/--twitter?label=Twitter&logo=Twitter&style=social)](https://twitter.com/JoashMacenton)
+EMAIL: <a href="mailto:joashagesa@yahoo.com">joashagesa@yahoo.com</a>
 
 <hr/>
