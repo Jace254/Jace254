@@ -1,7 +1,6 @@
 <img src="https://github.com/Jace254/Jace254/blob/main/Github%20Cheersquad.png"/>
 <br>
 <br>
-<img src="https://count.getloli.com/get/@Jace254?theme=gelbooru-h" />
 
 
 
