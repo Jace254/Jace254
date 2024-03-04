@@ -4,7 +4,7 @@
 
 
 Hi, I am Agesa 👋<br>
-Design Engineer at VirtualWeb Technologies
+Software Engineer at [Wezeshanet Technologies](https://www.wezeshanet.com)
 
 EMAIL: <a href="mailto:joashagesa@yahoo.com">joashagesa@yahoo.com</a>
 
