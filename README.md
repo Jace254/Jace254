@@ -1,4 +1,4 @@
-[<img src="https://github.com/Jace254/Jace254/blob/main/GithubBanner.png"/>](https://www.joash.me)
+<a href="https://www.joash.me" target="_blank"><img src="https://github.com/Jace254/Jace254/blob/main/GithubBanner.png"/></a>
 <br>
 <br>
 
